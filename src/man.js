@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>satellite-track</title>
-</head>
+import App from './App.vue'
+import router from './router'
 
-<body>
-  <div id="app"></div>
-  <script type="module" src="./src/main.js"></script>
-</body>
+import './assets/main.css'
 
-</html>
+const app = createApp(App)
+
+app.use(createPinia())
+app.use(router)
+
+app.mount('#app')
