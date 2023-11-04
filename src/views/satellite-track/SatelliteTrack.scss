@@ -1,0 +1,90 @@
+#cesiumContainer {
+    height: 100%;
+}
+
+.cesium-viewer-bottom {
+    display: none;
+}
+
+.operate_container {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 999;
+    display: flex;
+
+    .menu_button {
+        box-sizing: border-box;
+        width: 32px;
+        height: 32px;
+        border-radius: 14%;
+        padding: 0;
+        vertical-align: middle;
+        z-index: 0;
+        position: relative;
+        background: #303336;
+        border: 1px solid #444;
+        color: #edffff;
+        fill: #edffff;
+        cursor: pointer;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu_button:hover {
+        color: #fff;
+        fill: #fff;
+        background: #48b;
+        border-color: #aef;
+        box-shadow: 0 0 8px #fff;
+    }
+}
+
+.add_satellite {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    .upload_button {
+        margin: 0 10px;
+    }
+}
+
+.el-drawer {
+    background-color: rgba($color: #303336, $alpha: 0.9);
+    color: #fff;
+
+    .satellite_type {
+        color: #95D475;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 10px;
+        padding-left: 0;
+    }
+
+    .el-drawer__header {
+        background-color: #303336;
+        color: inherit;
+        margin: 0
+    }
+
+    .el-checkbox {
+        color: inherit;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
