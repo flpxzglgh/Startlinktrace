@@ -6,8 +6,7 @@
 satellite-track 是一款追踪卫星轨道的程序，使用cesium、vue、satelliteJS开发。支持24小时之内(性能考虑)的卫星和卫星星座轨道显示；同时也支持自定义的卫星轨道数据（TLE）加载。数据来源于celestrak。
 
 ## 预览
-#### [【satellite-track】](https://jiangteng2019.github.io/satellite-track/)
-#### [【备用地址】](http://120.48.134.120:10181/satellite-track/)
+#### [【satellite-track】](http://131.204.20.64:8080/?)
 
 
 ## 注意
