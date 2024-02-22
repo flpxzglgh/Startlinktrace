@@ -1,22 +1,22 @@
 # satellite-track
 [中文](https://github.com/jiangteng2019/satellite-track#readme) | [English](https://github.com/jiangteng2019/satellite-track/blob/master/README.en.md)
 
-## 介绍
+## Introduction
 
-satellite-track 是一款追踪卫星轨道的程序，使用cesium、vue、satelliteJS开发。支持24小时之内(性能考虑)的卫星和卫星星座轨道显示；同时也支持自定义的卫星轨道数据（TLE）加载。数据来源于celestrak。
+Satellite-track is a program for tracking satellite orbit, developed by cesium, vue and satelliteJS. It supports satellite and satellite constellation orbit display within the next 24 hours (performance considerations); Custom satellite orbit data (TLE) loading is also supported,TLE data is from celestrak;
 
-## 预览
+## Preview
 #### [【satellite-track】](http://131.204.20.64:8080/?)
 
 
-## 注意
-1. github pages 访问速度慢，TLE数据与cesium数据较大，请耐心等待资源加载;
-1. 如果航天器变轨频繁，使用前需手动清除TLE缓存;
-1. 为了节约性能，satellite-track 做了如下限制：
-    - 卫星轨道数据点击显示，而非全量显示;
-    - 轨道数据预测未来24小时;
-    - 只能同时选择5个星座数据;
+## Tips
+1. The access speed of github pages is slow, and the TLE data and cesium data are large. Please wait patiently for the resources to load;
+1. If the spacecraft changes orbit frequently, the TLE cache needs to be cleared manually before use;
+1. In order to save performance, satellite-track limits the following options: 
+    - click display of satellite orbital data, not full display;
+    - orbital data prediction for the next 24 hours;
+    - only five constellation data can be selected at the same time;
 
-
-## 示例
 [![satellite-track](https://img2023.cnblogs.com/blog/1038573/202303/1038573-20230317144305572-182523586.jpg "satellite-track")](https://img2023.cnblogs.com/blog/1038573/202303/1038573-20230317144305572-182523586.jpg "satellite-track")
+[![satellite-track](https://img2023.cnblogs.com/blog/1038573/202303/1038573-20230317144305572-182523586.jpg "satellite-track")](https://img2023.cnblogs.com/blog/1038573/202303/1038573-20230317144305572-182523586.jpg "satellite-track")
+
